@@ -8,7 +8,7 @@ A very simple react starter kit containing:
 
 ## Installation
 <pre>
-git clone https://github.com/jarlehansen/simple-react-starter.git <i><project-name></i>
+git clone https://github.com/jarlehansen/simple-react-starter.git <i>project-name</i>
 npm install
 </pre>
 
