@@ -1,7 +1,7 @@
 {
-  "name": "pro-react-chapter2",
+  "name": "simple-react-starter",
   "version": "0.0.1",
-  "description": "Simple react starter",
+  "description": "Simple react starter kit",
   "scripts": {
     "start": "node_modules/.bin/webpack-dev-server --progress --colors",
     "build": "node_modules/.bin/webpack -p --progress --colors"
