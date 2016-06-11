@@ -8,9 +8,11 @@ A very simple react starter kit containing:
 * html-webpack-plugin - https://github.com/ampedandwired/html-webpack-plugin
 
 ## Installation
+The setup-script will remove the .git folder for the simple-react-starter, so you can run `git init`.
+It will then run `npm install` to get all the dependencies before it finally deletes itself (there is no need for this script after initial launch).
 <pre>
 git clone https://github.com/jarlehansen/simple-react-starter.git <i>project-name</i>
-npm install
+./setup
 </pre>
 
 ## Usage
