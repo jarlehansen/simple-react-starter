@@ -3,8 +3,8 @@
   "version": "0.0.2",
   "description": "Simple react starter kit",
   "scripts": {
-    "start": "node_modules/.bin/webpack-dev-server --progress --colors",
-    "build": "node_modules/.bin/webpack -p --progress --colors"
+    "start": "webpack-dev-server --progress --colors",
+    "build": "webpack -p --progress --colors"
   },
   "author": "Jarle Hansen",
   "license": "ISC",

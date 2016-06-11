@@ -5,6 +5,7 @@ A very simple react starter kit containing:
 * react - https://facebook.github.io/react/
 * babel - https://babeljs.io/
 * html-webpack-plugin - https://github.com/ampedandwired/html-webpack-plugin
+* eslint - http://eslint.org/
 
 ## Installation
 <pre>
