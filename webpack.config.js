@@ -20,6 +20,10 @@ var config = {
       loader: 'babel'
     }]
   },
+  eslint: {
+    failOnWarning: false,
+    failOnError: true
+  },
   plugins: [
     new HtmlWebpackPlugin({
       template: __dirname + '/src/index.tmpl.html'
