@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "start": "webpack-dev-server --progress --colors",
-    "build": "webpack -p --progress --colors"
+    "build": "NODE_ENV=production webpack -p --progress --colors"
   },
   "author": "",
   "license": "ISC",
