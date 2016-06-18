@@ -2,9 +2,9 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config = {
   devtool: 'source-map',
-  entry: `__dirname/src/App.js`,
+  entry: `${__dirname}/src/App.js`,
   output: {
-    path: `__dirname/dist`,
+    path: `${__dirname}/dist`,
     filename: 'bundle.js'
   },
   module: {
@@ -25,7 +25,7 @@ const config = {
   },
   plugins: [
     new HtmlWebpackPlugin({
-      template: `__dirname/src/index.tmpl.html`
+      template: `${__dirname}/src/index.tmpl.html`
     })
   ],
   devServer: {
